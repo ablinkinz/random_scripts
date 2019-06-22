@@ -1,3 +1,6 @@
+#replace <bao server> with your fqdn of your BAO server
+#replace :Module:Process with your module and process (leave the :s in place)
+#python BMCAtriumOrchestratorRestCall.py username password bsa_targets_as_csv_list
 import requests
 requests.packages.urllib3.disable_warnings()
 import sys
